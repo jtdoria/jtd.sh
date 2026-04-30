@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jtd.sh</title>
+  <meta name="description" content="A personal domain for projects I tinker with on weekends.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f5f1ea;
+      --ink: #1c1a17;
+      --muted: #6b6358;
+      --rule: #d9d2c5;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    body {
+      font-family: "Newsreader", Georgia, serif;
+      font-size: 19px;
+      line-height: 1.6;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-feature-settings: "kern", "liga", "onum";
+    }
+
+    main {
+      max-width: 36rem;
+      margin: 0 auto;
+      padding: 6rem 1.5rem 4rem;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    .domain {
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      text-transform: lowercase;
+    }
+
+    h1 {
+      font-family: "Newsreader", Georgia, serif;
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0.4rem 0 0;
+      letter-spacing: -0.01em;
+    }
+
+    h1 em {
+      font-style: italic;
+      font-weight: 400;
+      color: var(--muted);
+    }
+
+    p {
+      margin: 0 0 1.4rem;
+    }
+
+    p.lede {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--muted);
+      margin-top: 0;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 0.78rem;
+      color: var(--muted);
+      letter-spacing: 0.02em;
+    }
+
+    @media (max-width: 480px) {
+      main { padding: 3.5rem 1.25rem 3rem; }
+      body { font-size: 18px; }
+      h1 { font-size: 1.65rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="domain">jtd.sh</div>
+      <h1>A personal sandbox <em>for projects I tinker with on weekends.</em></h1>
+    </header>
+
+    <p class="lede">Hobbyist code, built for an audience of one.</p>
+
+    <hr>
+
+    <p>The current focus is on collecting my data and data important to my daily life from as many sources as possible into a single tool for my own use. I'm connecting everything local weather forecasts, my credit card transactions, my calendar, my to do lists, and so on to create a tools that make my life easier to organize and track, like dashboards, various forms of reminders, agent integration, etc. on a local machine I own.</p>
+
+    <p>Just a guy trying to automate the boring parts of day to day life for fun and profit.</p>
+
+    <footer>
+      &mdash; Joe
+    </footer>
+  </main>
+</body>
+</html>
